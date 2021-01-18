@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import * as Style from "./styled"
+import * as S from "./styled"
 
 const Avatar = () => {
   const { avatarImage } = useStaticQuery(graphql`
@@ -16,7 +16,7 @@ const Avatar = () => {
   `)
 
   return (
-    <Style.AvatarWrapper
+    <S.AvatarWrapper
       fluid={avatarImage.childImageSharp.fluid}
       className="foo-bar"
       style={{ width: "60px" }}
