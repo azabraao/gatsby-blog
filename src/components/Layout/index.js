@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Profile from "../Profile"
-
+import GlobalStyles from "../../styles/global"
 import styled from "styled-components"
 
 const LayoutWrapper = styled.section`
@@ -18,6 +18,7 @@ const LayoutMain = styled.main`
 const Layout = ({ children }) => {
   return (
     <LayoutWrapper>
+      <GlobalStyles />
       <aside>
         <Profile />
       </aside>
