@@ -23,8 +23,6 @@ collections:
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
         }
-      - { label: "image", name: "thumbnail", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - {
         label: "Category",
         name: "category",
@@ -45,3 +43,5 @@ collections:
           { label: 'Misc', value: '#7AAB13' },
         ]
       }
+      - { label: "image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
