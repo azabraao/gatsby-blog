@@ -2,7 +2,7 @@ backend:
   name: github
   repo: azabraao/gatsby-blog
   branch: master
-  site_domain: dreamy-darwin-blog.netlify.com
+  site_domain: darwin-blog.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
