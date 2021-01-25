@@ -2,7 +2,7 @@ backend:
   name: github
   repo: azabraao/gatsby-blog
   branch: master
-  site_domain: dreamy-darwin-blog.netlify.app
+  site_domain: dreamy-darwin-blog.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
@@ -23,6 +23,7 @@ collections:
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
         }
+      - { label: "image", name: "image", widget: "image" }
       - {
         label: "Category",
         name: "category",
@@ -43,5 +44,4 @@ collections:
           { label: 'Misc', value: '#7AAB13' },
         ]
       }
-      - { label: "image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
